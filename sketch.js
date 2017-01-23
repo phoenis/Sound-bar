@@ -20,7 +20,7 @@ function draw() {
     noStroke();
     fill(199,x,67.5);
     
-    for(var a=100; a<width-100; a+=20) {
+    for(var a=width/8; a<width-width/8; a+=20) {
         rect (a,0,10,random(-x,x));
     }     
     
