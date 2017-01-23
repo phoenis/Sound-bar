@@ -26,7 +26,15 @@ function draw() {
     
     fill(199,100,67.5);
     textFont("Amatic SC");
-    textSize(width/30);
+    if (width<500){
+        textSize(width/10);
+    } else {
+        textSize(50);
+    }
     textAlign(CENTER);
     text("Sing to stretch the bars!",width/2,height/2.5);
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth,windowHeight);
 }
