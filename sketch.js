@@ -32,7 +32,7 @@ function draw() {
         textSize(50);
     }
     textAlign(CENTER);
-    text("Sing to stretch the bars!",width/2,height/2.5);
+    text("Sing to see the movement!",width/2,height/2.5);
 }
 
 function windowResized() {
